@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.min.css?_v=20220207193646">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220207223516">
    <title>Document</title>
 </head>
 
@@ -243,18 +243,18 @@
                <span class="form__subtitle">Якщо ви не знайшли відповіді на своє запитання, просто напишіть
                   нам.
                </span>
-               <form class="form__form">
-                  <label class="phone">
-                     <input type="text" placeholder="Ім'я">
+               <form id="form" class="form__form">
+                  <label class="name">
+                     <input class="__name _req" type="text _req" placeholder="Ім'я">
                   </label>
                   <label class="email">
-                     <input type="text" placeholder="E-mail">
+                     <input class="__email _req" type="text" placeholder="E-mail">
                   </label>
-                  <label>
-                     <input class="number" type="number" placeholder="+38(_ _ _) _ _ _ _ _ _ _">
+                  <label class="phone">
+                     <input class="number __phone _req" type="number" placeholder="+38(_ _ _) _ _ _ _ _ _ _">
                   </label>
                   <label class="question">
-                     <input type="text" placeholder="Введіть ваше запитання">
+                     <input class="_req" type="text" placeholder="Введіть ваше запитання">
                   </label>
                   <button class="form__btn" type="submit">Відправити</button>
                </form>
@@ -275,7 +275,7 @@
 </main>
 
 <body>
-   <script src="js/app.min.js?_v=20220207193646"></script>
+   <script src="js/app.min.js?_v=20220207223516"></script>
 </body>
 
 </html>
